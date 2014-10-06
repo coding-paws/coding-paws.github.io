@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "OS X 10.9 und Xcode 5 – Command Line Developer Tools installieren"
+date:   2013-11-01 21:06:05
+categories: osx apple mac
+---
+
+Bis einschließlich Xcode 4 konnte man die Command Line Developer Tools aus Xcode heraus über Einstellungen -> Downloads  installieren. Seit OS X 10.9 (Mavericks) und Xcode 5 funktioniert das nicht mehr. Es gibt jetzt zwei neue Installationsvarianten. 
+Ein Weg ist es die Tools über [Apple Developer](https://developer.apple.com) herunter zu laden.
+
+In der zweiten Variante öffnet man ein Terminal-Fenster und gibt dort folgendes Kommando ein:
+
+{% highlight bash %}
+xcode-select --install
+{% endhighlight %}
+
+Dadurch wird ein Dialog geöffnet, über den man die Developer Tools installieren kann:
+
+<img src="/img/tools-install-dialog1-1024x467.png" alt="Install Dialog" style="width: 80%;"/>
+
+Falls die Developer Tools bereits installiert sind, gibt xcode-select –install leider eine missverständliche Meldung aus:
+
+<img src="/img/already-installed-1024x389.png" alt="Install Dialog" style="width: 80%;"/>
