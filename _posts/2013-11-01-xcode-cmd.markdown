@@ -16,8 +16,8 @@ xcode-select --install
 
 Dadurch wird ein Dialog geöffnet, über den man die Developer Tools installieren kann:
 
-<img src="/img/tools-install-dialog1-1024x467.png" alt="Install Dialog" style="width: 80%;"/>
+<img src="/img/tools-install-dialog1-1024x467.png" alt="Install Dialog 1" style="width: 90%;"/>
 
 Falls die Developer Tools bereits installiert sind, gibt xcode-select –install leider eine missverständliche Meldung aus:
 
-<img src="/img/already-installed-1024x389.png" alt="Install Dialog" style="width: 80%;"/>
+<img src="/img/already-installed-1024x389.png" alt="Install Dialog 2" style="width: 90%;"/>
